@@ -1,6 +1,6 @@
 namespace UtilityKnife.Calculator
 {
-    public class Calculator
+    public static class Calculator
     {
         public static int Add (int x, int y)
         {
@@ -15,7 +15,7 @@ namespace UtilityKnife.Calculator
         {
             return x * y;
         }
-        public static int Division (int x, int y)
+        public static double Division (int x, int y)
         {
             return x / y;
         }
